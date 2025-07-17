@@ -31,7 +31,8 @@ button{
     font-family: Cocogoose;
     cursor: pointer;
     width: 15%;
-    margin: 0px 10px;
+    margin-right: 40px;
+    float: right;
 }
 
 button:hover{
@@ -60,4 +61,5 @@ h2{
     background-color: #66281f;
     letter-spacing: 1px;
     padding: 10px;
+    color:#E6E5D5
 }
