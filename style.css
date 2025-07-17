@@ -57,9 +57,39 @@ h2{
     width: 60%;
 }
 
-.aboutme{
+#aboutmebanner{
     background-color: #66281f;
     letter-spacing: 1px;
-    padding: 10px;
-    color:#E6E5D5
+    padding: 30px;
+    color:#E6E5D5;
+    margin: 0px;
+    border-bottom-left-radius: 30px;
 }
+
+.aboutme{
+    display: flex;
+    background-color: #66281f;
+    letter-spacing: 1px;
+    color:#E6E5D5;
+}
+
+.aboutmeinfo{
+    flex: 50%;
+    background-color: #E6E5D5;
+    margin: 0px;
+    padding: 10px;
+    border-top-right-radius: 30px;
+    color:#66281f
+}
+
+.skills{
+    flex: 50%;
+    padding: 10px;
+}
+
+.skills ul li{
+    padding: 10px;
+    font-size: large;
+}
+
+
